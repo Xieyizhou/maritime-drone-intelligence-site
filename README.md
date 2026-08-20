@@ -1,12 +1,15 @@
-# China Maritime Drone Market Entry Intelligence
+# Jinyi Zhao — Research + Product Builder
 
-Lightweight three-page static website for overseas maritime-technology suppliers.
+A lightweight static professional site combining selected work, public research and a focused China maritime-technology research service.
 
 ## Routes
 
-- `/` — positioning, market proof, route to market and Founding Vendor Screen
-- `/brief/` — latest six-page public Executive Brief
-- `/contact/` — direct email and LinkedIn contact
+- `/` — personal positioning, selected work, capabilities and dual career / enterprise paths
+- `/work/` — selected research, product and engineering work
+- `/work/partner-intelligence/` — anonymized partner-intelligence console case study
+- `/services/` — vendor-specific maritime market-entry research and matched-record offer
+- `/brief/` — public six-page executive brief
+- `/contact/` — career, collaboration and enterprise contact paths
 
 ## Local preview
 
@@ -23,4 +26,4 @@ Open `http://localhost:4173`.
 - Build command: leave blank
 - Build output directory: `.`
 
-The site has no runtime dependencies, form backend, CMS, database, login, payment or analytics.
+The site has no runtime dependencies, form backend, CMS, database, login, payment or analytics. The product screenshot uses synthetic demo data only.

@@ -28,3 +28,8 @@ if (menuButton && navigation) {
     if (window.innerWidth > 820) setMenu(false);
   });
 }
+
+const activeIntent = new URLSearchParams(window.location.search).get('intent');
+if (activeIntent) {
+  document.querySelector(`[data-intent="${CSS.escape(activeIntent)}"]`)?.classList.add('is-selected');
+}
