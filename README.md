@@ -1,15 +1,16 @@
-# Jinyi Zhao — Research + Product Builder
+# Jinyi Zhao — Personal Portfolio
 
-A lightweight static professional site combining selected work, public research and a focused China maritime-technology research service.
+A lightweight static personal portfolio for research, product and engineering work. The maritime-technology research service remains available through the relevant project.
 
 ## Routes
 
-- `/` — personal positioning, selected work, capabilities and dual career / enterprise paths
-- `/work/` — selected research, product and engineering work
+- `/` — personal introduction, selected work, capabilities and contact
+- `/work/` — four selected research, product and engineering projects
+- `/about/` — short biography and working approach
 - `/work/partner-intelligence/` — anonymized partner-intelligence console case study
 - `/services/` — vendor-specific maritime market-entry research and matched-record offer
 - `/brief/` — public six-page executive brief
-- `/contact/` — career, collaboration and enterprise contact paths
+- `/contact/` — direct email, career and collaboration paths, with a secondary research inquiry
 
 ## Local preview
 
