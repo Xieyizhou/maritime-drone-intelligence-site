@@ -1,0 +1,119 @@
+/* Approved editorial direction. Project artwork is reviewed separately. */
+:root{--shell:1180px}
+.portfolio-site h1,.portfolio-site h2,.portfolio-site h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.035em}
+.portfolio-site h1{font-size:clamp(42px,5vw,68px);line-height:1.08}
+.portfolio-site h2{line-height:1.15}
+.portfolio-site .header-inner{min-height:76px}
+.portfolio-site .editorial-hero-inner{display:flex;flex-direction:column;align-items:flex-start;gap:22px;position:relative;padding-bottom:46px}
+.portfolio-site .editorial-hero{padding-top:60px}
+.portfolio-site .hero-identity{font-size:12px;text-transform:uppercase;letter-spacing:.09em}
+.portfolio-site .editorial-hero h1{font-size:clamp(42px,5.1vw,70px);max-width:870px;line-height:1.08;letter-spacing:-.04em}
+.portfolio-site .editorial-hero h1 em{font:inherit;color:inherit}
+.portfolio-site .desktop-break{display:none}
+.portfolio-site .hero-introduction{align-self:auto;max-width:690px}
+.portfolio-site .hero-introduction p{max-width:650px;font-size:19px;line-height:1.55}
+.portfolio-site .hero-location{position:absolute;right:0;top:0;margin:0;font-size:12px}
+.portfolio-site .hero-actions{margin-top:26px}
+.portfolio-site .home-feature{grid-template-columns:.8fr 1.3fr;gap:48px}
+.portfolio-site .home-feature-copy{grid-column:1;grid-row:1}
+.portfolio-site .home-feature-image{grid-column:2;grid-row:1;border-radius:0;padding:28px}
+.portfolio-site .home-feature-copy h3{font-size:34px}
+.portfolio-site .editorial-page-intro{padding:58px 0 48px}
+.portfolio-site .about-intro>.shell{display:grid;grid-template-columns:1fr 230px;column-gap:70px}
+.portfolio-site .about-intro .project-number{grid-column:1/-1;margin-bottom:26px}
+.portfolio-site .about-intro h1{grid-column:1;max-width:900px}
+.portfolio-site .about-intro .about-lead{grid-column:1;max-width:760px;margin-top:20px;font-size:20px;line-height:1.5}
+.about-margin{grid-column:2;grid-row:2/4;align-self:center;color:var(--muted);font-size:14px}
+.about-margin span{display:block}.about-margin .location-label{font-size:11px;letter-spacing:.08em}
+.about-margin .profession{border-top:1px solid var(--rule);padding-top:20px;margin-top:24px}
+.portfolio-site .about-story{border:0;padding:0}
+.portfolio-site .about-story-grid{grid-template-columns:1fr 1.65fr;gap:70px;border-top:1px solid var(--rule);padding-block:44px}
+.portfolio-site .about-story h2{font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;line-height:1.6}
+.portfolio-site .about-story p{font-size:17px;line-height:1.65}
+.approach-grid{display:grid;grid-template-columns:1fr 1.65fr;gap:70px;border-top:1px solid var(--rule);padding-block:44px 54px}
+.approach-grid h2{font-size:40px;max-width:290px}
+.approach-list{list-style:none;padding:0;margin:0;counter-reset:approach}
+.approach-list li{counter-increment:approach;display:grid;grid-template-columns:52px 1fr;padding:20px 0;border-top:1px solid var(--rule)}
+.approach-list li:first-child{padding-top:0;border:0}
+.approach-list li:before{content:'0' counter(approach);color:var(--accent);font-size:16px}
+.portfolio-site .approach-list h3{font-size:24px;letter-spacing:-.02em;line-height:1.3}
+.approach-list p{font-size:16px;line-height:1.5;margin-top:3px}
+.practice-examples{background:var(--soft);padding:40px 0}
+.practice-examples>.shell{display:grid;grid-template-columns:1fr 1.65fr;gap:70px}
+.practice-examples h2{font-size:40px;max-width:300px}
+.practice-links{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+.practice-links article+article{border-left:1px solid var(--rule);padding-left:36px}
+.portfolio-site .practice-links h3{font-size:25px;margin-bottom:12px}
+.practice-links p{font-size:16px;line-height:1.6;margin-bottom:20px}
+.quiet-contact{padding:28px 0}
+.quiet-contact>.shell{display:flex;gap:32px;align-items:center;flex-wrap:wrap}
+.quiet-contact p{font-size:14px}
+.portfolio-site .contact-intro-new>.shell{display:grid;grid-template-columns:1fr 240px;gap:70px}
+.contact-primary .project-number{margin-bottom:20px}
+.portfolio-site .contact-intro-new h1{max-width:690px}
+.portfolio-site .contact-intro-new p{max-width:670px;font-size:18px;margin-top:20px}
+.portfolio-site .contact-direct{font-size:clamp(22px,2.4vw,32px);margin-top:26px;line-height:1.45;overflow-wrap:normal;max-width:100%}
+.portfolio-site .contact-intro-new .contact-location{font-size:14px;margin-top:20px}
+.contact-elsewhere{border-left:1px solid var(--rule);padding-left:48px;align-self:center;display:flex;flex-direction:column;gap:16px}
+.contact-elsewhere .project-number{margin-bottom:4px}
+.portfolio-site .contact-choices{padding:0 0 36px}
+.contact-choices>.shell{border-top:1px solid var(--rule);padding-top:30px}
+.portfolio-site .contact-choices h2{font-size:36px}
+.portfolio-site .contact-choice-grid{display:block}
+.portfolio-site .intent-card{display:grid;grid-template-columns:64px 1fr auto;grid-template-rows:auto auto;gap:4px 24px;padding:27px 24px;border:0;border-bottom:1px solid var(--rule);border-radius:0}
+.portfolio-site .intent-card .project-number{grid-column:1;grid-row:1/3;align-self:center;font-size:14px}
+.portfolio-site .intent-card h3{grid-column:2;grid-row:1;margin:0;font-size:29px}
+.portfolio-site .intent-card p{grid-column:2;grid-row:2;font-size:16px}
+.portfolio-site .intent-card .intent-action{grid-column:3;grid-row:1/3;align-self:center;margin:0;font-size:14px;font-weight:500;color:var(--accent);border-bottom:1px solid #789483;padding-bottom:4px}
+.portfolio-site .intent-card:focus-visible{background:var(--soft)}
+@media(hover:hover){.portfolio-site .intent-card:hover{background:var(--soft)}}
+.portfolio-site .contact-other>.shell{border:0;padding-top:0;display:block}
+.portfolio-site .contact-other{padding-bottom:38px}
+.portfolio-site .contact-other h2{font-size:25px;margin-bottom:8px}
+.portfolio-site .contact-other .entry-links{margin-top:14px}
+.portfolio-site .site-footer{padding:24px 0}
+.work-page .editorial-page-intro .project-number{margin-bottom:18px}
+.work-page .editorial-page-intro p{margin-top:16px}
+.work-page .work-entries{display:grid;grid-template-columns:1fr 1fr;column-gap:52px}
+.work-page #market-entry{grid-column:1/-1}
+.work-page #uav-sandbox,.work-page #job-copilot{display:block;padding-block:30px}
+.work-page #uav-sandbox h2,.work-page #job-copilot h2{margin-top:14px}
+.work-page .work-feature h2{font-size:38px}
+.work-page .work-feature{grid-template-columns:1fr 1.2fr;gap:46px;padding:32px 0;align-items:center}
+.work-page .work-feature h2{margin:14px 0}
+.work-page .project-deck{font-size:20px;margin-bottom:10px}
+.work-page .editorial-facts>div{grid-template-columns:115px 1fr}
+.project-cover{margin:0;min-width:0}
+.project-cover img{width:100%;height:auto;aspect-ratio:2/1;object-fit:contain}
+.project-cover figcaption{font-size:12px;margin-top:8px}
+.portfolio-site .home-feature-image{padding:0;border-radius:0;background:transparent}
+.portfolio-site .home-feature-image img{border-radius:0;box-shadow:none}
+@media(max-width:860px){
+ .portfolio-site .hero-location{position:static;order:-1}.portfolio-site .hero-identity{order:-2}
+ .portfolio-site .editorial-hero-inner{gap:18px}.portfolio-site .home-feature{display:flex;flex-direction:column;gap:24px}
+ .portfolio-site .about-intro>.shell,.portfolio-site .contact-intro-new>.shell{grid-template-columns:1fr;gap:0}
+ .about-margin{grid-column:1;grid-row:auto;margin-top:28px}.about-margin .profession{width:fit-content;margin-top:16px;padding-top:16px}
+ .portfolio-site .about-story-grid,.approach-grid,.practice-examples>.shell{grid-template-columns:1fr;gap:24px}
+ .approach-grid h2,.practice-examples h2{max-width:none;font-size:34px}
+ .contact-elsewhere{border-left:0;border-top:1px solid var(--rule);padding:22px 0 0;margin-top:30px;display:flex;flex-direction:row;flex-wrap:wrap;gap:16px 28px}
+ .contact-elsewhere .project-number{width:100%}
+ .portfolio-site .intent-card{grid-template-columns:36px 1fr;padding:24px 16px;gap:8px 16px}
+ .portfolio-site .intent-card .project-number{grid-row:1;align-self:start;padding-top:6px}
+ .portfolio-site .intent-card .intent-action{grid-column:2;grid-row:3;justify-self:start;margin-top:8px}
+ .work-page .work-entries{grid-template-columns:1fr}
+ .work-page .work-feature{grid-template-columns:1fr;gap:24px}
+}
+@media(max-width:540px){
+ :root{--pad:24px}.portfolio-site .editorial-hero{padding-top:26px}.portfolio-site .editorial-hero h1{font-size:42px}
+ .portfolio-site .hero-introduction p{font-size:17px}.portfolio-site .hero-location{font-size:12px;margin-top:-14px}
+ .portfolio-site .editorial-page-intro{padding:30px 0 34px}.portfolio-site .editorial-page-intro h1{font-size:42px}
+ .portfolio-site .about-intro .project-number{margin-bottom:18px}.portfolio-site .about-intro .about-lead{font-size:17px;margin-top:16px}
+ .portfolio-site .about-intro h1{max-width:280px}
+ .portfolio-site .about-story-grid{padding-block:30px}.portfolio-site .about-story p{font-size:16px}
+ .approach-grid{padding-block:28px 34px}.approach-list li{grid-template-columns:36px 1fr}.portfolio-site .approach-list h3{font-size:22px}
+ .practice-examples{padding:28px 0}.practice-links{grid-template-columns:1fr;gap:24px}.practice-links article+article{border-left:0;border-top:1px solid var(--rule);padding:24px 0 0}
+ .portfolio-site .contact-intro-new p{font-size:16px}.portfolio-site .contact-intro-new .contact-location{font-size:13px}
+ .portfolio-site .contact-direct{font-size:22px}.portfolio-site .contact-choices h2{font-size:30px}
+ .portfolio-site .intent-card h3{font-size:25px}.portfolio-site .intent-card p{font-size:16px}
+ .portfolio-site .home-feature-image{padding:16px}.quiet-contact>.shell{gap:14px}
+}
